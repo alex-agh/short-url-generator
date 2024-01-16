@@ -28,7 +28,7 @@ Test API using [Swagger UI](http://localhost:8000/docs)
 
 ## API Endpoints
 
-### <span style="color: red;"> /shorten-url </span>
+### /shorten-url
 
 Create a short version of the given URL.
 
@@ -40,11 +40,11 @@ Sample Output:
 
 - {"short_url": "http://127.0.0.1:8000/MfXDe8"}
 
-### <span style="color: red;"> /{url_path} </span>
+### /{url_path}
 
 Use the obtained short URL in the address bar of your browser to check if it redirects correctly.
 
-### <span style="color: red;"> /remove </span>
+### /remove
 
 Use the following endpoint to remove certain URLs from the database.
 
